@@ -18,7 +18,10 @@ export default function Home() {
             and fast web services</h1>
         </div>
 
-        <div className={styles.img00} />
+        <div className={styles.img00}>
+          <img className={styles.imgChangeD} style={{ width: "100%", height: "100%", borderRadius: "10px" }} src='heroImageD.jpg'></img>
+          <img className={styles.imgChange} style={{ width: "100%", height: "100%", borderRadius: "10px" }} src='heroImage.jpg'></img>
+        </div>
 
         <div className={styles.card01}>
           <h1>Story, emotion and purpose</h1>

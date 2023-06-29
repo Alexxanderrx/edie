@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   width: 100%;
   height: 940vh;
 }
@@ -20,7 +20,7 @@
 }
 
 .card00 {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   width: 40%;
   height: 20%;
   margin-right: 400px;
@@ -39,15 +39,23 @@
 
 .img00 {
   width: 96%;
-  height: 37%;
+  height: 30%;
   /* background-color: aqua; */
   border-radius: 10px;
   background-size: cover;
-  background-image: url("../public/heroImage.jpg");
+  /* background-image: url("../public/heroImageD.jpg"); */
+}
+
+.imgChangeD {
+  display: block;
+}
+
+.imgChange {
+  display: none;
 }
 
 .card01 {
-  background-color: bisque;
+  /* background-color: bisque; */
   height: 30%;
   width: 25%;
   margin-right: 600px;
@@ -102,19 +110,127 @@
   width: 30%;
 }
 
+.card01b>button:hover {
+  background-color: rgb(39, 132, 186);
+}
+
 .card02 {}
 
 /* Mobile */
 @media (max-width: 700px) {
-  /* .content {
-    padding: 4rem;
-  } */
+  .fondo {
+    height: 75vh;
+    /* gap: 10px; */
+  }
 
+  .card00 {
+    width: 70%;
+    margin-right: 20px;
+  }
+
+  .card00>p {
+    font-size: 10px;
+  }
+
+  .card00>h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .img00 {
+    height: 30%;
+    width: 95%;
+    background-size: cover;
+    /* background-image: url("../public/heroImageD.jpg"); */
+  }
+
+  .imgChangeD {
+    display: none;
+  }
+
+  .imgChange {
+    display: block;
+  }
+
+  .card01 {
+    /* background-color: bisque; */
+    height: 50%;
+    width: 80%;
+    margin-right: 0px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+  }
+
+  .card01>h1 {
+    font-size: 20px;
+    margin-right: 100px;
+    /* background-color: aqua; */
+  }
+
+  .card01>p {
+    font-size: 10px;
+  }
+
+  .card01a>p {
+    font-size: 8px;
+  }
 }
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-  /* .grid {
-    grid-template-columns: repeat(2, 50%);
-  } */
+  .fondo {
+    height: 130vh;
+    /* gap: 10px; */
+  }
+
+  .card00 {
+    width: 30%;
+    margin-right: 300px;
+  }
+
+  .card00>p {
+    font-size: 10px;
+  }
+
+  .card00>h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .img00 {
+    height: 40%;
+    width: 90%;
+    background-size: cover;
+    /* background-image: url("../public/heroImageD.jpg"); */
+  }
+
+  .imgChangeD {
+    display: none;
+  }
+
+  .imgChange {
+    display: block;
+  }
+
+  .card01 {
+    /* background-color: bisque; */
+    height: 35%;
+    width: 35%;
+    margin-right: 0px;
+  }
+
+  .card01>h1 {
+    font-size: 20px;
+    margin-right: 100px;
+    /* background-color: aqua; */
+  }
+
+  .card01>p {
+    font-size: 10px;
+  }
+
+  .card01a>p {
+    font-size: 8px;
+  }
 }
